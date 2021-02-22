@@ -1,7 +1,7 @@
 # The pandoc command to generate standard outputs.
 # Note that this relies upon pdflatex being installed, which can be obtained
 # on MacOS via the MacTex program (yes, I know its a 4GB application)
-# -s			C	reate a standalone file output, not a file fragment
+# -s				Create a standalone file output, not a file fragment
 # -H pandoc-setup.tex		Configuration file to configure the output file styling
 # --listings			Use the listings package for code blocks
 # -V geometry:margin=0.5in	Pandoc creates some huge margins by default, this
